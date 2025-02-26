@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @Component
 public class BookDAO {
-    private final JdbcTemplate jdbcTemplate;
+    /*private final JdbcTemplate jdbcTemplate;
 
     @Autowired
     public BookDAO(JdbcTemplate jdbcTemplate) {
@@ -49,5 +49,5 @@ public class BookDAO {
 
     public void assign(int id, Person selectedPerson) {
         jdbcTemplate.update("UPDATE Book SET person_id=? WHERE id=?", selectedPerson.getId(), id);
-    }
+    }*/
 }
